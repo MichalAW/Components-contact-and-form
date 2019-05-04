@@ -1,3 +1,61 @@
+$button-color: #0ab;
+$grey-color: #DCDCDC;
+$white-color: #FFFFFF;
+$dark-grey: #A9A9A9;
+$green-color: #80ff00;
+$black-color: #000000;
+
 body {
-    background-color: lightblue;
+    padding: 40px 20% 20px 10%;
 }
+
+h1 {
+    font-size: 20px;
+    font-style: $dark-grey;
+    font-weight: bold;
+}
+
+.contactImage {
+    width: 60px;
+    height: 40px;
+    padding: 5px 0 5px 10px;
+}
+
+.app {
+    background-color: $dark-grey;
+    border: 1px solid $black-color;
+}
+
+.contactForm {
+    border: 1px solid $black-color;
+    padding: 10px;
+}
+
+.contactItem {
+    border: 1px solid $black-color;
+    background-color: $grey-color;
+    p {
+        padding: 5px 0 5px 10px;
+    }
+    
+    a {
+         padding: 5px 0 5px 10px;
+         text-decoration: none;
+    }
+}
+
+button {
+    background-color: $button-color;
+    border-radius: 5px;
+    color: $white-color;
+}
+
+input {
+    margin: 10px 12px 0 0;
+    padding: 15px;
+    position: relative;
+    border-left: 6px solid $green-color;
+    background:$white-color;
+    text-align: center;
+}
+
