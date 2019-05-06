@@ -1,56 +1,19 @@
-body {
-  padding: 40px 20% 20px 10%;
-}
+body { padding: 40px 20% 20px 10%; }
 
-h1 {
-  font-size: 20px;
-  font-style: #A9A9A9;
-  font-weight: bold;
-}
+h1 { font-size: 20px; font-style: #A9A9A9; font-weight: bold; }
 
-.contactImage {
-  width: 60px;
-  height: 40px;
-  padding: 5px 0 5px 10px;
-}
+.contactImage { width: 60px; height: 40px; padding: 5px 0 5px 10px; }
 
-.app {
-  background-color: #A9A9A9;
-  border: 1px solid black;
-}
+.app { background-color: #A9A9A9; border: 1px solid #000000; }
 
-.contactForm {
-  border: 1px solid black;
-  padding: 10px;
-}
+.contactForm { border: 1px solid #000000; padding: 10px; }
 
-.contactItem {
-  border: 1px solid black;
-  background-color: #DCDCDC;
-}
+.contactItem { border: 1px solid #000000; background-color: #DCDCDC; }
 
-.contactItem p {
-  padding: 5px 0 5px 10px;
-}
+.contactItem p { padding: 5px 0 5px 10px; }
 
-.contactItem a {
-  padding: 5px 0 5px 10px;
-  text-decoration: none;
-}
+.contactItem a { padding: 5px 0 5px 10px; text-decoration: none; }
 
-button {
-  background-color: #0ab;
-  border-radius: 5px;
-  color: #FFFFFF;
-}
+button { background-color: #0ab; border-radius: 5px; color: #FFFFFF; }
 
-input {
-  margin: 10px 12px 0 0;
-  padding: 15px;
-  position: relative;
-  border-left: 6px solid #80ff00;
-  background: #FFFFFF;
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+input { margin: 10px 12px 0 0; padding: 15px; position: relative; border-left: 6px solid #80ff00; background: #FFFFFF; text-align: center; }
